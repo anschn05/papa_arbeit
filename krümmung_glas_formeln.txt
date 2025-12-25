@@ -13,3 +13,27 @@ D = E*h**3/(12*(1-v**2))
 #PDE: D*laplace²(w_g) = q         wobei w_g die krümmung durch erdbeschleunigung beschreibt
 
 
+
+PMMA:
+- E-Modul[GPa]:
+2.7
+- Poisson-Zahl:
+0.4
+- Dichte [kg/m³]:
+1180
+
+ALUMINIUM:
+- E-Modul[GPa]:
+70
+- Poisson-Zahl:
+0.35
+- Dichte [kg/m³]:
+2699.89
+
+STAHL:
+- E-Modul[GPa]:
+210
+- Poisson-Zahl:
+0.3
+- Dichte [kg/m³]:
+7850
