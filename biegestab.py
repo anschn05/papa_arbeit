@@ -41,12 +41,11 @@ def solve_constants(a,b,q,E,I):
     return solution
 
 
-
 a = 0.5 #m
 length = 2*a #m
 
 #Auflagerorte
-b = 0.3
+b = 0.001
 x1 = -b
 x2 = b
 
@@ -63,7 +62,7 @@ q_0 = roh * A * g #N/m - Streckenbelastung
 
 
 def f(x):
-    return 0.015*4*x**2
+    return 0.014*4*x**2
 
 #print(solution[c1A])
 c_list = [c1A,c1B,c1C,c2A,c2B,c2C]
@@ -107,4 +106,15 @@ plt.plot(-b,f(-b),'ro')
 plt.plot(b,f(b),'ro') 
 
 plt.grid(True)
+
+plt.locator_params(axis='x', nbins=20)  # 20 Ticks auf x-Achse
+plt.locator_params(axis='y', nbins=15)  # 15 Ticks auf y-Achse
+
+# plt.grid(True, which='major', linestyle='-', linewidth=0.3, color='black')
+
+# # Feineres Grid für Nebenticks
+# plt.grid(True, which='minor', linestyle=':', linewidth=0.3, color='gray')
+
+# # Nebenticks aktivieren
+# plt.minorticks_on()
 plt.show()
