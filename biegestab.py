@@ -45,7 +45,7 @@ a = 0.5 #m
 length = 2*a #m
 
 #Auflagerorte
-b = 0.001
+b = 0.1
 x1 = -b
 x2 = b
 
