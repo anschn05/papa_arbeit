@@ -1,0 +1,10 @@
+#generierte Datenfelder
+startwert.xyz
+endwert.xyz
+gravitation.xyz
+
+#Stunden-Blatt
+*.ods
+
+#Python
+_pycache_/
