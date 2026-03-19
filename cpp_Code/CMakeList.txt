@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(CircleFit)
+
+set(CMAKE_CXX_STANDARD 17)
+
+# OpenCV finden
+find_package(OpenCV REQUIRED)
+
+# Executable
+add_executable(circle_fit KruemmungAnalyse.cpp)
+
+# OpenCV linken
+target_link_libraries(circle_fit ${OpenCV_LIBS})
