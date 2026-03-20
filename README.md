@@ -36,7 +36,11 @@ siehe Code: mm_xyzFile_zusammenrechnen_EW.ipynb
 im Ordner 'KruemmungAnalyse_python', den Code 'Auflager_Hauptcode.ipynb' öffnen 
 darin kannst du den Radius der Auflagerkreise und die Mittelpunkte der Kreise (Anzahl egal, mind. 1er, nicht zu groß) initialisieren
 
-und dann 'Run'
+für neue *.xyz-files einfach den titel als string zu filename_MW schreiben - egl eh selbsterklärend
+
+der rest sollte passen
+
+dann 'Run'
 
 wahrschienlich musst du dir davor noch die libraries: 
 - ngsolve
