@@ -29,3 +29,19 @@ siehe Code: mm_xyzFile_generieren_SW.ipynb
 
 siehe Code: mm_xyzFile_zusammenrechnen_EW.ipynb
 
+
+
+
+## Auflager selber bestimmen
+im Ordner 'KruemmungAnalyse_python', den Code 'Auflager_Hauptcode.ipynb' öffnen 
+darin kannst du den Radius der Auflagerkreise und die Mittelpunkte der Kreise (Anzahl egal, mind. 1er, nicht zu groß) initialisieren
+
+und dann 'Run'
+
+wahrschienlich musst du dir davor noch die libraries: 
+- ngsolve
+- numpy
+- matplotlib 
+- ipympl 
+installieren
+
