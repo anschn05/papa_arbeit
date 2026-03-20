@@ -42,6 +42,8 @@ wahrschienlich musst du dir davor noch die libraries:
 - ngsolve
 - numpy
 - matplotlib 
-- ipympl \n 
+- ipympl
+
+  
 installieren
 
