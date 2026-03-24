@@ -49,3 +49,10 @@ wahrschienlich musst du dir davor noch die libraries:
 - ipympl 
 installieren
 
+## CODE STRUKTUR/Update
+
+# wichtigeAlteFiles 
+darin sind die wichtigsten Codeteile, wie Kirchhoff-Love lösen, Krümmungsanalyse, *.xyz-Files zusammenrechnen, usw. gesondernt/einzeln gespeichert, damit man sehen kann, wie diese funktionieren
+
+# CodeAblauf
+darin ist ein file "Hauptcode", womit man mithilfe eines messwerte-Files, alles einmal durchlaufen lässt, inkl. analyse der Auflager, berechnung der Gravitationsauswirkung, usw.
