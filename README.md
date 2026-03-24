@@ -1,5 +1,5 @@
-## Berechnung der Verwerfung einer Glasplatte ohne dem Einfluss von Gravitation
-# Kirchhoff-Love mit der Hellan-Herrmann-Johnson-Methode
+# Berechnung der Verwerfung einer Glasplatte ohne dem Einfluss von Gravitation
+## Kirchhoff-Love mit der Hellan-Herrmann-Johnson-Methode
 
 
 1. Begonnen mit Simulation der Kirchhoff-Love PDE für Glasplatte mit folgenden Parametern:
@@ -32,7 +32,7 @@ siehe Code: mm_xyzFile_zusammenrechnen_EW.ipynb
 
 
 
-## Auflager selber bestimmen
+# Auflager selber bestimmen
 im Ordner 'KruemmungAnalyse_python', den Code 'Auflager_Hauptcode.ipynb' öffnen 
 darin kannst du den Radius der Auflagerkreise und die Mittelpunkte der Kreise (Anzahl egal, mind. 1er, nicht zu groß) initialisieren
 
@@ -49,10 +49,10 @@ wahrschienlich musst du dir davor noch die libraries:
 - ipympl 
 installieren
 
-## CODE STRUKTUR/Update
+# CODE STRUKTUR/Update
 
-# wichtigeAlteFiles 
+## wichtigeAlteFiles 
 darin sind die wichtigsten Codeteile, wie Kirchhoff-Love lösen, Krümmungsanalyse, *.xyz-Files zusammenrechnen, usw. gesondernt/einzeln gespeichert, damit man sehen kann, wie diese funktionieren
 
-# CodeAblauf
+## CodeAblauf
 darin ist ein file "Hauptcode", womit man mithilfe eines messwerte-Files, alles einmal durchlaufen lässt, inkl. analyse der Auflager, berechnung der Gravitationsauswirkung, usw.
