@@ -92,7 +92,6 @@ def AuflagerMinima_viertel(t,tol,filename_MW):
     return auflagerPunkte
 
 
-
 def AuflagerMinima(t,tol,filename_MW):
     #t = 3.6
     #tol = 10e-4
