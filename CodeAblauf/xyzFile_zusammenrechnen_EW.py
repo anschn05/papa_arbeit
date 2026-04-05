@@ -54,8 +54,8 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV):
     ax = fig.add_subplot(projection='3d')
 
     ax.plot_surface(X, Y,Z_MW,color="red")          # startwerte
-    ax.plot_surface(X, Y,Z_GRAV,color="blue")       # gravitation
-    ax.plot_surface(X, Y,Z_EW,color="green")        # endwerte
+    # ax.plot_surface(X, Y,Z_GRAV,color="blue")       # gravitation
+    # ax.plot_surface(X, Y,Z_EW,color="green")        # endwerte
     ax.view_init(elev=10, azim=-75)
 
     fig2, ax2 = plt.subplots()
@@ -63,8 +63,8 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV):
     y_mid = round(step/2)
 
     ax2.plot(X[y_mid,:], Z_MW[y_mid,:],   'r', label='Startwerte')
-    ax2.plot(X[y_mid,:], Z_GRAV[y_mid,:], 'b', label='Gravitation')
-    ax2.plot(X[y_mid,:], Z_EW[y_mid,:],   'g', label='Endwerte')
+    # ax2.plot(X[y_mid,:], Z_GRAV[y_mid,:], 'b', label='Gravitation')
+    # ax2.plot(X[y_mid,:], Z_EW[y_mid,:],   'g', label='Endwerte')
     ax2.legend()
     ax2.grid(True,alpha=0.5) #,which="major",alpha=0.2)
 
