@@ -24,7 +24,7 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV):
     array100 = np.full(1600,100)
     x_MW = data_MW[:,0]
     y_MW = data_MW[:,1]
-    z_MW = (data_MW[:,2] - array100)
+    z_MW = (data_MW[:,2])
     #gravitationswerte
     x_GRAV = data_GRAV[:,0]
     y_GRAV = data_GRAV[:,1]
