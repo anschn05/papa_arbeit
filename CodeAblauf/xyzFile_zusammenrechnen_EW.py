@@ -14,17 +14,24 @@ pv.set_jupyter_backend(None)
 
 
 
-def plotten(l,b,t,step,filename_MW,filename_GRAV):
+def plotten(l,b,t,step,filename_MW,filename_GRAV,Vorzeichen):
 
     data_MW = np.loadtxt(filename_MW)
 
     data_GRAV = np.loadtxt(filename_GRAV)
 
+    if Vorzeichen == "Max":
     #startwerte/messwerte
-    array100 = np.full(1600,100)
-    x_MW = data_MW[:,0]
-    y_MW = data_MW[:,1]
-    z_MW = (data_MW[:,2])
+        # array100 = np.full(1600,100)
+        # x_MW = data_MW[:,0]
+        # y_MW = data_MW[:,1]
+        z_MW = -(data_MW[:,2])
+    if Vorzeichen == "Min":
+        #startwerte/messwerte
+        # x_MW = data_MW[:,0]
+        # y_MW = data_MW[:,1]
+        z_MW = (data_MW[:,2])
+
     #gravitationswerte
     x_GRAV = data_GRAV[:,0]
     y_GRAV = data_GRAV[:,1]
@@ -32,7 +39,9 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV):
     #endwerte
     x_EW = x_GRAV
     y_EW = y_GRAV
-    z_EW = z_MW - z_GRAV
+    z_EW = z_MW + z_GRAV
+
+
 
     np.set_printoptions(threshold=np.inf)
 
@@ -128,3 +137,4 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV):
 
     plt.show()
 
+    return filename_EW
