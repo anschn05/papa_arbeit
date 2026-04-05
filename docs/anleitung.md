@@ -8,4 +8,8 @@ außerdem zu installierende Libraries:
 - numpy
 - matplotlib 
 - ipympl 
-- pyvista
+- pyvista (als erweiterung wsl noch 'trame')
+- import_ipynb
+- math
+
+alle mittels 'pip install ...' installierbar

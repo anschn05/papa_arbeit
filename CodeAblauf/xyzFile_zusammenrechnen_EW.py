@@ -62,7 +62,6 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV):
     plotter = pv.Plotter()
     plotter.set_scale(1, 1, 7)  # Y-Achse gestaucht
 
-
     plotter.add_mesh(grid_MW, color="red", opacity=0.9, label="Startwerte")
     plotter.add_mesh(grid_GRAV, color="blue", opacity=0.9, label="Gravitation")
     plotter.add_mesh(grid_EW, color="green", opacity=0.9, label="Endwerte")
