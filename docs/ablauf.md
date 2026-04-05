@@ -1,4 +1,4 @@
-# Ablauf der Entwicklung
+# Ablauf Entwicklung
 
 ## Gravitations-Code
 ### 1. 1D-Modell
