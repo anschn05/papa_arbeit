@@ -62,7 +62,7 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV,Vorzeichen):
     Z_MW = z_MW.reshape(len(Y), len(X))
     Z_GRAV = z_GRAV.reshape(len(Y), len(X))
     Z_EW = z_EW.reshape(len(Y), len(X))
-
+    
     # 3D PLOT ---- PyVista
     grid_MW = pv.StructuredGrid(X, Y, Z_MW)
     grid_GRAV = pv.StructuredGrid(X, Y, Z_GRAV)
@@ -122,7 +122,6 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV,Vorzeichen):
     ax3.grid(True,alpha=0.5) #,which="major",alpha=0.2)
 
 
-
     #TODO höchster Wert abhängig von Auflagerort
     # print(f"Länge={l}mm, Breite={b}mm, Dicke={t}mm")
     # print('\nHöchster Wert:')
@@ -136,5 +135,5 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV,Vorzeichen):
     # print(' prozentuelle Änderung:    ', round(((100/z_MW[interessanterIndex]) * z_EW[interessanterIndex]),2),'%')
 
     plt.show()
-
+    
     return filename_EW
