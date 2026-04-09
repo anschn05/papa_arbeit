@@ -45,7 +45,7 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV,Vorzeichen):
 
     np.set_printoptions(threshold=np.inf)
 
-    filename_EW = f"{t}mm_endwerte.xyz"
+    filename_EW = f"xyzFiles/{t}mm_endwerte.xyz"
     with open(filename_EW, "w") as f:
         for i in range(len(x_EW)):
             x, y, w = x_EW[i],y_EW[i],z_EW[i]
