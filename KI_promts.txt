@@ -1,0 +1,23 @@
+# ANGANFS-PROMT - Einleitung des Projekts:
+
+Hallo, ich habe ein Projekt:
+Ich möchte einen Scanner für die Glasproduktion entwickeln.
+In der Glasindustrie, gibt es das sogenannte Floatglas und vorgespanntes Glas, was nichts anderes ist, als stark erhitztes Floatglas, welches dann abrupt abgekühlt wird, wodurch sehr viel Zug- und Druckspannung entsteht, wodurch es anderes bricht. Das vorgespannte Glas wird als Sicherheitsglas verwendet.
+Der Scanner soll nach dem Vorspannen, die Verwerfung der Glasplatte messen bzw. berechnen. 
+Da die Glasplatte nie perfekt eben ist und durch den schnellen Abkühlprozess unter Zug- und Druckspannungen steht, ergibt sich eine Art Höhenfunktion bzw. Oberflächenverformung.
+
+Das Problem ist, dass die Scheibe zum Zeitpunkt der Messung horizontal liegt und sich durch ihr Eigengewicht (Gravitation 𝑔=9.81m/s²) zusätzlich verbiegt. 
+Im späteren Einsatz steht die Glasscheibe jedoch vertikal, wodurch sich die Verformung deutlich verändert.
+
+Mein Ziel ist es, aus der gemessenen Höhenfunktion im liegenden Zustand auf die tatsächliche Krümmung bzw. Verwerfung im stehenden Zustand zu schließen, 
+also den Einfluss der Gravitation rechnerisch zu entfernen bzw. umzurechnen. 
+Die Glasplatte wird während des Transports auf Rollen gemessen, die jeweils 125mm von einander entfernt sind und einen Durchmesser von ...mm haben.
+
+Welche mathematischen Modelle muss ich dafür berücksichtigen (z. B. Plattentheorie, Elastizität, PDEs)?
+Wie lässt sich der Zusammenhang zwischen der Verformung im liegenden und stehenden Zustand beschreiben?
+Wie kann man dafür eine geeignete Gleichung bzw. ein Modell aufstellen?
+Und welche möglichen Lösungsansätze gibt es (z. B. mit Finite-Elemente-Methode mittels NGSolve), um dieses Problem numerisch zu lösen?
+
+Ich habe das Problem bereits mithilfe der Kirchhoff-Love PDE für Platten simuliert, 
+habe dabei allerdings das Problem, dass sich die Glasplatte zu stark verbiegt, 
+unter Einfluss der Gravitation - ich erhalte also verfälschte Werte und kann die Gravitation nicht rückrechnen.
