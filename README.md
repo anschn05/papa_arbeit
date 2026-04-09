@@ -13,6 +13,8 @@
 
 ## CodeAblauf - HAUPTORDNER
 darin ist ein file "Hauptcode", womit man mithilfe eines messwerte-Files, alles einmal durchlaufen laesst, inkl. analyse der Auflager, berechnung der Gravitationsauswirkung, usw.
+und auch alle dafür benötigten anderen Codes befinden sich momentan darin
+der Ordner für die *.xyz-Files und latexFiles ist auch darin
 
 ## 1D_modell
 damit habe ich begonnen. Mit einem 'einfachen' 1D-Modell, um die Mechanik und Physik dahinter ein bisschen besser zu verstehen, ist aber fuer die eigentliche Software nicht wichtig

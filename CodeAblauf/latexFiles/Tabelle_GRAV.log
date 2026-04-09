@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  9 APR 2026 13:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  9 APR 2026 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ansch/OneDrive - TU Wien/Documents_OneDrive/Papa_Arbeit/papa_arbeit/CodeAblauf/Tabelle_GRAV.tex"
-(c:/Users/ansch/OneDrive - TU Wien/Documents_OneDrive/Papa_Arbeit/papa_arbeit/CodeAblauf/Tabelle_GRAV.tex
+**"c:/Users/ansch/OneDrive - TU Wien/Documents_OneDrive/Papa_Arbeit/papa_arbeit/CodeAblauf/latexFiles/Tabelle_GRAV.tex"
+(c:/Users/ansch/OneDrive - TU Wien/Documents_OneDrive/Papa_Arbeit/papa_arbeit/CodeAblauf/latexFiles/Tabelle_GRAV.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -139,31 +139,31 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-)
-Runaway argument?
-{ \begin {tabular}{|c|c|c|c|c|c|c|c|} \hline lxb & 3 mm & 4 mm & 5 mm\ETC.
-! File ended while scanning use of \Gscale@box@dd.
-<inserted text> 
-                \par 
-<*> ...it/papa_arbeit/CodeAblauf/Tabelle_GRAV.tex"
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 38.
+[1
 
-! Emergency stop.
-<*> ...it/papa_arbeit/CodeAblauf/Tabelle_GRAV.tex"
-                                                  
-*** (job aborted, no legal \end found)
-
- 
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] (./Tabelle_GRAV.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 2073 strings out of 467349
- 31497 string characters out of 5419863
- 441405 words of memory out of 5000000
- 31191 multiletter control sequences out of 15000+600000
+ 2088 strings out of 467349
+ 31840 string characters out of 5419863
+ 463405 words of memory out of 5000000
+ 31201 multiletter control sequences out of 15000+600000
  629260 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,2n,65p,323b,172s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 57i,9n,65p,334b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Tabelle_GRAV.pdf (2 pages, 39532 bytes).
+PDF statistics:
+ 22 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
