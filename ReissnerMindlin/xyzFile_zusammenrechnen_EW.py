@@ -64,21 +64,21 @@ def plotten(l,b,t,step,filename_MW,filename_GRAV,Vorzeichen):
     Z_EW = z_EW.reshape(len(Y), len(X))
     
     # 3D PLOT ---- PyVista
-    grid_MW = pv.StructuredGrid(X, Y, Z_MW)
-    grid_GRAV = pv.StructuredGrid(X, Y, Z_GRAV)
-    grid_EW = pv.StructuredGrid(X, Y, Z_EW)
+    # grid_MW = pv.StructuredGrid(X, Y, Z_MW)
+    # grid_GRAV = pv.StructuredGrid(X, Y, Z_GRAV)
+    # grid_EW = pv.StructuredGrid(X, Y, Z_EW)
 
-    plotter = pv.Plotter()
-    plotter.set_scale(1, 1, 7)  # Y-Achse gestaucht
+    # plotter = pv.Plotter()
+    # plotter.set_scale(1, 1, 7)  # Y-Achse gestaucht
 
-    plotter.add_mesh(grid_MW, color="red", opacity=0.9, label="Startwerte")
-    plotter.add_mesh(grid_GRAV, color="blue", opacity=0.9, label="Gravitation")
-    plotter.add_mesh(grid_EW, color="green", opacity=0.9, label="Endwerte")
+    # plotter.add_mesh(grid_MW, color="red", opacity=0.9, label="Startwerte")
+    # plotter.add_mesh(grid_GRAV, color="blue", opacity=0.9, label="Gravitation")
+    # plotter.add_mesh(grid_EW, color="green", opacity=0.9, label="Endwerte")
 
-    plotter.add_axes()
-    plotter.add_legend()
+    # plotter.add_axes()
+    # plotter.add_legend()
 
-    plotter.show(jupyter_backend=None)
+    # plotter.show(jupyter_backend=None)
 
     # 3D PLOT ---- matplotlib
     fig = plt.figure()
