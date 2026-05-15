@@ -12,6 +12,8 @@ pv.set_jupyter_backend(None)
 # filename_MW = f"{t}mm_messwerte.xyz"
 # filename_GRAV = f"{t}mm_gravitation.xyz"
 
+
+
 def plotten(l,b,t,step,filename_MW,filename_GRAV,Vorzeichen):
 
     data_MW = np.loadtxt(filename_MW)
