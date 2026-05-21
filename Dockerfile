@@ -1,3 +1,3 @@
-FROM ngsolve/ngsolve
+FROM jupyter/scipy-notebook
 
-RUN pip install matplotlib numpy jupyter
+RUN pip install ngsolve matplotlib
