@@ -4,7 +4,6 @@ from math import sqrt
 """
 15.5
 der Code definiert auf versch. Arten die Auflager
-
 AuflagerViertel gelöscht!!!
 """
 np.set_printoptions(threshold=np.inf)
