@@ -1,0 +1,31 @@
+Basisfunktionen visualisieren
+https://jschoeberl.github.io/IntroSC/PDEs/first_example.html
+
+mehr zu Basisfunktionen/Legendre Basisfunktionen
+https://jschoeberl.github.io/iFEM/pversion/myhighorder.html
+
+Erklärung der Freiheitsgrade/freedofs & plot der Basisfunktionen - SUPER!!!
+https://jschoeberl.github.io/iFEM/FEM/myFiniteElement.html
+
+
+
+X.ndof vs X.FreeDofs()
+Bsp.:		(Ecken und Kantenmittelpunkte sind Freiheitsgrade)
+A --a-- B
+|    /  |
+d   e   b
+|  /    |
+D --c-- C
+
+ang. Reihenfolge der FreeDofs = [A,B,C,D,a,b,c,d,e]
+
+Randbdg. ist gleich Null am kompletten Rand, dann:
+	print(X.ndof) -> 9
+	X.FreeDofs() = [0,0,0,0,0,0,0,0,1]
+
+Randbdg. ist gleich Null beim Mittelpunkt:
+	print(X.ndof) -> 9
+	X.FreeDofs() = [1,1,1,1,1,1,1,1,0]
+	
+	
+		
